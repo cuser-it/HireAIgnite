@@ -1,0 +1,68 @@
+:root {
+  /* Light Theme (Default) */
+  --primary-color: #9449f3;
+  --bg-color: #F8FAFC;
+  --component-bg: #ffffff;
+  --text-color: #1E293B;
+  --text-secondary: #64748B;
+  --text-third: #94A3B8;
+  --border-color: #E2E8F0;
+  --shadow-color: rgba(99, 102, 241, 0.1);
+  --header-bg: #ffffff;
+  --sider-bg: #ffffff;
+  --menu-item-hover: #F1F5F9;
+  --menu-item-active: #EEF2FF;
+  --text-light: #ffffff;
+  --text-dark: #1E293B;
+  --input-bg: #F8FAFC;
+  --input-placeholder: #9449f3;
+  --card-shadow: 0 4px 20px rgba(99, 102, 241, 0.08);
+  --tag-bg: #F1F5F9;
+  --success-color: #10B981;
+  --warning-color: #F59E0B;
+  --info-color: #3B82F6;
+  --error-color: #ef4444;
+  --tooltip-bg: rgba(0, 0, 0, 0.75);
+  --tooltip-text: #ffffff;
+  
+  /* RGB变量 */
+  --primary-color-rgb: 148, 73, 243;
+  --success-color-rgb: 16, 185, 129;
+  --warning-color-rgb: 245, 158, 11;
+  --info-color-rgb: 59, 130, 246;
+  --error-color-rgb: 239, 68, 68;
+}
+
+[data-theme='dark'] {
+  --primary-color: #8A7CB4;
+  --bg-color: #2A2A2D;
+  --component-bg: #333336;
+  --text-color: #E8E8E9;
+  --text-secondary: #BABAC0;
+  --text-third: #8F8F96;
+  --border-color: #44444D;
+  --shadow-color: rgba(0, 0, 0, 0.25);
+  --header-bg: #333336;
+  --sider-bg: #333336;
+  --menu-item-hover: #3E3E44;
+  --menu-item-active: #494952;
+  --text-light: #E8E8E9;
+  --text-dark: #8F8F96;
+  --input-bg: #3A3A3F;
+  --input-placeholder: #8A7CB4; 
+  --card-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+  --tag-bg: #44444D;
+  --success-color: #4CAF84;
+  --warning-color: #E6A23C;
+  --info-color: #6B91CD;
+  --error-color: #DB6B6E;
+  --tooltip-bg: rgba(0, 0, 0, 0.8);
+  --tooltip-text: #E8E8E9;
+  
+  /* RGB变量 */
+  --primary-color-rgb: 138, 124, 180;
+  --success-color-rgb: 76, 175, 132;
+  --warning-color-rgb: 230, 162, 60;
+  --info-color-rgb: 107, 145, 205;
+  --error-color-rgb: 219, 107, 110;
+} 
